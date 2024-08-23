@@ -8,7 +8,7 @@ The assigned project involves the development of a hardware module that reads a 
 **Component**  
 The interface of the component to be implemented is as follows:
 
-![image](https://github.com/user-attachments/assets/fecc3fa4-f1b5-4e69-bdd5-5a945593d0b5)
+![image](https://github.com/user-attachments/assets/df310d10-3854-4aad-b5fc-55369a818364)
 
 
 **Input Signals:**
