@@ -1,6 +1,8 @@
 # VHDL_Project
 
----
+This project focuses on the design and implementation of a synchronous hardware module in VHDL. The module interfaces with an external memory to process a sequence of data words, reconstruct missing values, and associate each word with a credibility indicator.
+
+The system is implemented as a finite-state machine and manages all memory read and write operations through the provided interface signals.
 
 **Specification**  
 The assigned project involves the development of a hardware module that reads a sequence of words from memory. The module receives a serial input of `i_k` words, each with a value between 0 and 255, where 0 represents an unspecified value, and a memory address `i_add` that points to the first word of the sequence. The word sequence is stored starting from `i_add` at every 2 bytes. The module must complete the sequence by replacing the 0s with the last non-zero value read and writing a credibility value in the byte following each word. The credibility value is initialized to 31 and must be decremented each time a 0 is read in the word sequence, without ever becoming negative.
