@@ -1,5 +1,3 @@
-# VHDL_Project
-
 This project focuses on the design and implementation of a synchronous hardware module in VHDL. The module interfaces with an external memory to process a sequence of data words, reconstruct missing values, and associate each word with a credibility indicator.
 
 The system is implemented as a finite-state machine and manages all memory read and write operations through the provided interface signals.
